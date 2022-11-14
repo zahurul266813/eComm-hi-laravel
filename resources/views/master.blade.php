@@ -9,9 +9,18 @@
     <script src="./bootstrap.min.js"></script>
     <script src="./jquery-3.6.1.min.js"></script> -->
 
-    <link rel="stylesheet" href="./bootstrap.css">
+    <!-- <link rel="stylesheet" href="./bootstrap.css">
     <script src="./jquery-3.6.1.min.js"></script>
-    <script src="./bootstrap.js"></script>
+    <script src="./bootstrap.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional JQuery -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
 <!-- Bootstrap 3.3.7 .css file -->
 <style>
@@ -9190,6 +9199,39 @@
     .custom-login{
         height:450px;
         padding:100px;
+    }
+    .custom-products{
+        /* height:400px; */
+    }
+    img.slider-img{
+        /* height:400px !important; */
+    }
+    .slider-text{
+        color:black!important;
+        background-color: #87ceeb87!important;
+    }
+
+    .trending-wrapper{
+        margin: 20px;
+    }
+    .trending-img{
+        height:100px;
+    }
+    .trending-item{
+        float:left;
+        width:20%;
+        margin:auto;
+    }
+    .detail-img{
+        height:200px;
+    }
+    .search-box{
+        width:500px !important;
+    }
+    .cart-list-devider{
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 </style>
 
