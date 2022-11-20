@@ -51,7 +51,13 @@
                             <h3>{{$item['name']}}</h3>
                         </div>
                     </a>
+                    
+                    <button class="trnd-btn btn btn-warning">View Details</button>
+                    
+                    <button class="trnd-btn btn btn-danger">Add To Cart</button>
+                    
                 </div>
+                
             @endforeach
 
 

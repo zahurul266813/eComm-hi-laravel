@@ -9222,6 +9222,14 @@
         width:20%;
         margin:auto;
     }
+    .trnd-btn{
+        margin-top:10px;
+        margin-bottom:10px;
+        font-size:10px;
+        width:70px;
+        padding:0;
+        
+    }
     .detail-img{
         height:200px;
     }

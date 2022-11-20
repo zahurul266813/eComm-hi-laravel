@@ -15,6 +15,9 @@ use App\Http\Controllers\ProductController;
 |
 */
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 Route::get('/login', function () {
     return view('login');
 });
@@ -32,3 +35,8 @@ Route::get('removecart/{id}',[ProductController::class,'removeCart']);
 Route::get('ordernow',[ProductController::class,'orderNow']);
 Route::post('orderplace',[ProductController::class,'orderPlace']);
 Route::get('myorder',[ProductController::class,'myOrder']);
+
+
+
+
+
